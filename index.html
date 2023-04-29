@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Doxxim - Raper</title>
+    <meta name="author" content="Doxxim - Raper">
+    <meta property="og:site_name" content="Doxxim - Raper">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Doxxim - Hozirda juda ham ko'p chiroyli qo'shiqlari mavjud!">
+    <meta name="og:image" content="./assets/image.jpg">
+    <link rel="shortcut icon" href="./assert/image.jpg" type="image/x-icon">
+    <link href="./assert/flexgridcombo.css" rel="stylesheet">
+    <link href="./assert/bootstrap.min.css" rel="stylesheet">
+    <link href="./assert/style.css" rel="stylesheet">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <header class="header--title flex align-items-center">
+        <div class="container">
+            <div class="align-items-center flex">
+                <div class="logo-wrapper">
+                    <a class="logo" href="https://doxxim.uz/">Doxxim</a>
+                </div>
+                <ul class="nav align-items-center">
+                    <li><a class="list-item" href="https://uzhits.net/tags/Doxxim+2019/" target="_blank">Qo'shiqlari</a></li>
+                </ul>
+                <div class="burger-menu">
+                    <div class="bar bar--top"></div>
+                    <div class="bar bar--middle"></div>
+                    <div class="bar bar--bottom"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="home" class="flex align-items-center">
+        <div class="container">
+            <div class="row justify-between">
+                <div class="col-xl-8 col-lg-10 col-12 stagger-animation">
+                    <div class="about flex align-items-center">
+                        <img class="anim-item profile-picture    align-self-start" src="./assert/image.jpg" alt="Doxxim" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;">
+                        <div class="about-detail anim-item" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;">
+                            <h3 class="title">Mo'minov Qurbonali</h3>
+                            <h5 class="desc">Taxallus: Doxxim</h5>
+                            <div class="social-links flex
+                                    align-items-center">
+                                <a class="icon-youtube" target="_blank" href="https://www.youtube.com/@doxximofficial2786">
+                                    <img src="./assert/youtube.svg" width="23">
+                                </a>
+                                <a class="icon-linkedin" target="_blank" href="https://music.apple.com/uz/artist/doxxim/1546872603">
+                                    <img src="./assert/icons8-music.svg" width="22">
+                                </a>
+                                <a class="icon-telegram" target="_blank" href="https://t.me/doxxim">
+                                    <img src="./assert/telegram.svg" width="20">
+                                </a>
+                                <a class="icon-telegram" target="_blank" href="https://www.instagram.com/doxxim_offic1al">
+                                    <img src="./assert/icons8-instagram.svg" width="23">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <p class="size-big anim-item" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;">O‘z qo‘shilari bilan juda ko‘p insonlar sevimli qo‘shiqchisiga aylangan yosh ijodkor.</p>
+                        <div class="btns-wrapper anim-item" style="transform: matrix(1, 0, 0, 1, 0, 0); opacity: 1;">
+                            <a href="#" class="btn btn-secondary" onclick="playAudio()"> <img src="./assert/play-button-svgrepo-com (1).svg" width="20" style="margin-right: 5px;"> Tinglash</a>
+                        </div>
+
+                        <audio id="myAudio"> 
+                            <source src="./assert/doxxim-mayus-taronam.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
+                          </audio>
+
+                        <script>
+                            let step = 1
+                            let x = document.getElementById("myAudio");
+
+                            function playAudio() {
+                                if (step == 1) {
+                                    x.play();
+                                    step = 0
+                                } else {
+                                    x.pause();
+                                    step = 1;
+                                }
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <p>
+                    Copied by @mensenvau from azimjon.com
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="./assert/ScrollMonitor.min.js"></script>
+    <script src="./assert/TweenMax.min.js"></script>
+    <script src="./assert/main.js"></script>
+</body>
+
+</html>
